@@ -1,0 +1,63 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background: var(--gray-700);
+}
+
+.header form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+
+    position: absolute;
+    width: 736px;
+    height: 54px;
+    left: calc(50% - 736px/2);
+    top: 173px;
+
+}
+
+.header form input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px;
+    gap: 8px;
+    width: 638px;
+    height: 54px;
+    background: var(--gray-500);
+    border: 1px solid var(--gray-900);
+    border-radius: 8px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+
+    font-size: 1rem;
+    line-height: 140%;
+    color: var(--gray-300);
+
+}
+
+.header form button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    background: var(--blue-dark);
+    border-radius: 8px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    border: 0;
+    color: var(--gray-100);
+    cursor: pointer;
+}
+
+.header form button svg {
+    margin-left: 8px;
+}

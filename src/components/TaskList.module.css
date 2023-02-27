@@ -1,0 +1,91 @@
+.taksContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 736px;
+    height: 287px;
+    left: calc(50% - 736px/2);
+    top: 291px;
+}
+
+.taksContainer > div:nth-child(2) {
+    margin: 4rem auto;
+}
+
+.taksContainer > div:nth-child(2) svg {
+    text-align: center;
+}
+
+.taksHeader {
+    display: flex;
+    justify-content: space-between;
+    width: 736px;
+}
+
+.taksHeader div {
+    display: flex;
+    gap: 8px;
+}
+
+.taksHeader div:nth-child(1) span:first-child {
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 17px;
+    color: var(--blue);
+}
+
+.taksHeader div:nth-child(2) span:first-child {
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 17px;
+    color: var(--purple);
+}
+
+.taksHeader div span:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 8px;
+    background: var(--gray-400);
+    border-radius: 999px;
+
+    color: var(--gray-200);
+
+    font-weight: 700;
+    font-size: 0.75rem;
+    line-height: 15px;
+}
+
+.noTask div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.noTask img {
+    display: block;
+    margin: 0 auto;
+}
+
+.noTask div p {
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 140%;
+    text-align: center;
+    color: var(--gray-300);
+    margin-top: 1rem;
+}
+
+.noTask div span {
+    font-size: 1rem;
+    line-height: 140%;
+    text-align: center;
+    color: var(--gray-300);
+}
+
