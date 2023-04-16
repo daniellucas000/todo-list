@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { AiOutlinePlusCircle } from 'react-icons/ai';
 
 import style from '../components/Header.module.css';
-import todoLogo from '../assets/logo.svg';
+import todoLogo from '../assets/Logo.svg';
 
 export function Header({ onAddNewTask }) {
   const [title, setTitle] = useState('');
