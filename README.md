@@ -7,7 +7,7 @@
 </div>
 
 <h3 align="center">
-    <a href="https://ignite-timer-gules-xi.vercel.app/">Acessar a demonstração</a>
+    <a href="https://todo-list-eta-self.vercel.app/">Acessar a demonstração</a>
 <h3 >
 
 <h2>Sobre</h2>
